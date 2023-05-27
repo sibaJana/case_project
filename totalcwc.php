@@ -2,7 +2,7 @@
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $inputdata = $_POST['textInput'];
+    $inputdata = $_POST['txtRaw'];
     $totalCharacters = strlen($inputdata);
     $totalWords = str_word_count($inputdata);
     $totalLines = substr_count($inputdata, PHP_EOL) + 1;
