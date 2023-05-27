@@ -25,7 +25,7 @@
     <form>
       <div class="mb-3">
         <label for="textInput">Text:</label>
-        <textarea class="form-control" id="textInput" name="textInput" rows="5" placeholder="Enter your text"></textarea>
+        <textarea class="form-control custom-textarea" id="textInput" name="textInput" rows="5" placeholder="Enter your text"></textarea>
       </div>
       <p id="countall"></p>
       <button type="button" id="convert_case" class="btn btn-primary mt-1">Sentence case</button>

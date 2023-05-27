@@ -115,3 +115,9 @@ a{
   font-size: 25px;
 }
 
+.custom-textarea {
+  resize: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
