@@ -9,44 +9,43 @@
     <title>Text Case Converter</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   </head>
-<body>
- <div class="container">
- <?php require 'navbar.php';  ?>
 
- <div class="row align-items-center">
+  </head>
+<body>
+<div class="container">
+  <?php require 'navbar.php'; ?>
+
+  <div class="row align-items-center">
     <div class="col">
       <h1 class="text-success mb-0 mt-1">Text Case Converter</h1>
     </div>
-    <div class="col-auto">
+    <div class="col-auto"></div>
+  </div>
 
+  <form>
+    <div class="mb-3">
+      <label for="textInput">Text:</label>
+      <textarea class="form-control custom-textarea" id="textInput" name="textInput" rows="5" placeholder="Enter your text"></textarea>
     </div>
-  </div>
-    <form>
-      <div class="mb-3">
-        <label for="textInput">Text:</label>
-        <textarea class="form-control custom-textarea" id="textInput" name="textInput" rows="5" placeholder="Enter your text"></textarea>
-      </div>
-      <p id="countall"></p>
-      <button type="button" id="convert_case" class="btn btn-primary mt-1">Sentence case</button>
-      <button type="button" id="lower_case" class="btn btn-primary  mt-1">Lower case</button>
-      <button type="button" id="upper_case" class="btn btn-primary  mt-1">Upper case</button>
-      <button type="button" id="capitalized" class="btn btn-primary mt-1">Capitalized Case</button>
-      <button type="button" id="alternatingCase" class="btn btn-primary mt-1"> aLtErNaTiNg cAsE</button>
-      <button type="button" id="title_case" class="btn btn-primary mt-1">Title Case</button>
-      <button type="button" id="inverseCase" class="btn btn-primary mt-1">Inverse Case</button>
-      <button type="button" id="downloadTextFile" class="btn btn-primary mt-1"> Download Text</button>
-      <button type="button" id="copyToClipboard" class="btn btn-primary mt-1"> Copy to Clipboard</button>
-      <button type="button" id="clear" class="btn btn-primary mt-1"> Clear</button>
-    </form>
+    <p id="countall"></p>
+    <!-- Buttons for text case conversion -->
+    <button type="button" id="convert_case" class="btn btn-primary mt-1">Sentence case</button>
+    <button type="button" id="lower_case" class="btn btn-primary mt-1">Lower case</button>
+    <button type="button" id="upper_case" class="btn btn-primary mt-1">Upper case</button>
+    <button type="button" id="capitalized" class="btn btn-primary mt-1">Capitalized Case</button>
+    <button type="button" id="alternatingCase" class="btn btn-primary mt-1">aLtErNaTiNg cAsE</button>
+    <button type="button" id="title_case" class="btn btn-primary mt-1">Title Case</button>
+    <button type="button" id="inverseCase" class="btn btn-primary mt-1">Inverse Case</button>
 
-  </div> 
-  <div class="social-icons text-center">
-    <a href="https://www.instagram.com/siba.jana/" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/siba.jana.16/" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-facebook"></i></a>
-    <a href="https://wa.me/7076805561" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-whatsapp"></i></a>
-    <a href="https://twitter.com/SibaJana18" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-twitter"></i></a>
-  </div>
+    <!-- Buttons for additional actions -->
+    <button type="button" id="downloadTextFile" class="btn btn-primary mt-1">Download Text</button>
+    <button type="button" id="copyToClipboard" class="btn btn-primary mt-1">Copy to Clipboard</button>
+    <button type="button" id="clear" class="btn btn-primary mt-1">Clear</button>
+  </form>
+
+  <?php include 'footer.php'; ?>
+</div>
+
 <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

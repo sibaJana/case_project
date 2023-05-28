@@ -86,6 +86,7 @@
 <p>We will attempt to resolve complaints and disputes and make every reasonable effort to honor your wish to exercise your rights as quickly as possible and in any event, within the timescales provided by applicable data protection laws.</p>
 <p>This document was last updated on May 28, 2023</p>
 <p class="madewith"><a href="https://www.websitepolicies.com/privacy-policy-generator?via=madewithbadge" target="_blank"><img width="200" height="25" alt="Made with WebsitePolicies privacy policy generator" src="https://cdn.websitepolicies.io/img/badge.png" srcset="https://cdn.websitepolicies.io/img/badge_2x.png 2x"></a></p>
+<?php include 'footer.php'; ?>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

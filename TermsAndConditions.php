@@ -324,7 +324,7 @@ be uninterrupted, uncorrupted, timely, or error-free.</p>
 <h1>Contact Us</h1>
 <p> Don't hesitate to contact us if you have any questions.</p>
    <ul><li> Via this Link: https://alpokotha.in/contact.php</li></ul> 
-
+   <?php include 'footer.php'; ?>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
