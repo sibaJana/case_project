@@ -181,7 +181,7 @@
         $.ajax({
             type: "POST",
             url: "totalcwc.php",
-            data: {textInput:textInput},
+            data: {txtRaw:textInput},
             dataType: "json",
             success: function (response) {
                 // console.log(response)
