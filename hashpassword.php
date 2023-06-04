@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hash Generator</title>
+  <title>Hash Generators</title>
+  <meta name="description" content="Generate strong password hashes with our online tools. Safeguard your data by using bcrypt, SHA1, and MD5 hash generators for enhanced security and protection">
+  <meta name="keywords" content="bcrypt generator,sha1 generator,password hash online,md5 hash generator">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -88,6 +90,7 @@
   <div class="container">
     <?php include 'navbar.php' ?>
     <form id="frmTools" method="post">
+      <h1>Secure Password Hash Generators - Bcrypt, SHA1, MD5 - Protect Your Data Online</h1>
     <div class="card-group">
         <div class="card">
           <div class="card-body">

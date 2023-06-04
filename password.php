@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Text Case Converter - Change the case of your text with our free text case converter. Simply enter your text and click the convert button.">
-    <meta name="keywords" content="text case converter, free text case converter, change case of text, convert text to uppercase, convert text to lowercase, convert text to title case, convert text to sentence case, convert text to proper case,text case converter,text case changer,text case tool,online text case converter,free text case converter,text case switcher,case converter,case changer,case tool,online case converter,free case converter">
+    <meta name="description" content="Create highly secure passwords with our Strong Password Generator. Ensure the safety of your online accounts with reliable and unbreakable password combinations">
+    <meta name="keywords" content="strong password generator,random password,passgen">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Password Generator</title>
+  <title>Strong Password Generator</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -100,7 +100,7 @@
 <body>
     <div class="container">
     <?php include 'navbar.php'; ?>
-  <h1>Password Generator</h1>
+  <h1>Strong Password Generator - Generate Secure and Reliable Passwords</h1>
   <div id="container-x">
     <div>
       <label for="password-length">Password Length:</label>
