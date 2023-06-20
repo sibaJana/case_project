@@ -1,5 +1,6 @@
 <?php
 // Check if a file was uploaded
+error_reporting(0);
 $error = false; // Initialize the $error variable
 if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) {
     $csvFile = $_FILES['csvFile']['tmp_name'];
