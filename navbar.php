@@ -180,7 +180,7 @@ i {
                     <a class="nav-link" href="index.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="small_cap.php"><i class="fa fa-text-height" aria-hidden="true"></i>Small Text Generator</a>
+                    <a class="nav-link" href="csvtotable.php"><i class="fa fa-text-height" aria-hidden="true"></i>filter excel</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="notepad.php"><i class="fas fa-notes-medical"></i>online Notepad</a>
@@ -193,6 +193,7 @@ i {
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="hashpassword.php"><i class="far fa-copy"></i>Hash Password</a>
+					
                 </li>
             </ul>
         </div>
