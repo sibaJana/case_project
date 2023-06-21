@@ -240,6 +240,24 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
     <?php elseif (isset($error)): ?>
         <p>Error occurred while reading the CSV file.</p>
     <?php endif; ?>
+  <ul> 
+    <li> 
+Place the PHP code in a file with a .Personal home page extension, which includes csv_viewer.Php.</li>
+<li>
+Upload the document to a web server that supports PHP.</li>
+<li>
+Access the CSV viewer on your net browser with the aid of coming into the URL of the record. For example, if the record is hosted at https://www.Example.Com/csv_viewer.Php, visit that URL.
+    </li><li>
+On the CSV viewer page, you'll see a file add form. Click the "Choose File" button to pick a CSV report from your neighborhood laptop.
+</li><li>
+After selecting the report, click the "Upload" button to add the CSV file to the server.
+</li><li>
+If the CSV report is correctly uploaded and read, you may see the contents displayed in an interactive table.
+</li><li>
+You can explore and examine the CSV facts the use of the features furnished, along with sorting, filtering, and clicking on rows to view specified records.
+</li></ul>
+
+    
 </body>
 </html>
 <?php 
