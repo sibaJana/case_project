@@ -21,14 +21,17 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
+    <?php  include 'cs.php'; ?>
+
     <title>Online CSV Viewer: Explore and Analyze CSV Files in Your Browser</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/css/bootstrap.min.css"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
     <meta name="description" content="Powerful CSV viewer: Analyze, explore, and read CSV files online. Effortlessly navigate data, gain insights, and simplify your workflow">
     <meta name="keywords" content="csv viewer, online csv viewer, csv file reader,csv visualizer,csv file viewer online">
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://www.example.com">
+    <link rel="canonical" href="https://www.alpokotha.in">
     <meta property="og:title" content="Online CSV Viewer: Explore and Analyze CSV Files in Your Browser">
     <meta property="og:description" content="Powerful CSV viewer: Analyze, explore, and read CSV files online. Effortlessly navigate data, gain insights, and simplify your workflow">
     <meta property="og:image" content="https://www.alpokotha.in/">
@@ -37,9 +40,17 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
     <meta name="twitter:image" content="https://www.example.com/image.jpg">
 
     <style>
+        /* td{
+            font-size: 20px;
+        }
+        ul li{
+            font-size: 20px;
+        } */
+   
        table {
             width: 100%;
             border-collapse: collapse;
+            /* font-size: 40px; */
             
         }
         
@@ -55,6 +66,7 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
         
         td {
             text-align: center;
+            
         }
         
         /* .dataTables_wrapper {
@@ -64,18 +76,28 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
         .filter-input {
             display: none;
         }
-        @media (max-width: 767px) {
-            table th,
-            table td {
-                font-size: 40px;
-            }
-        }
+    
     .dataTables_wrapper .dataTables_filter {
     /* float: right;
     text-align: right; */
     margin-top: 10px;
     margin-bottom: 20px;
 }
+button, input, optgroup, select, textarea{
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+@media (max-width: 767px) {
+        *{
+            font-size: 20px;
+        }
+        button, input, optgroup, select, textarea{
+            margin-left: 80px;
+            margin-bottom: 12px;
+        }
+    }
+
+
 
     </style>
 
@@ -96,6 +118,7 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
     </script>
 </head>
 <body>
+    <div class="container">
     <?php include 'navbar.php'; ?>
     <h1 align="center" class="mt-2">Online CSV Viewer: Explore and Analyze CSV Files in Your Browser</h1>
     <form method="POST" enctype="multipart/form-data">
@@ -104,7 +127,7 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
     </form>
 
     <?php if (isset($csvData) && !$error): ?>
-        <table id="myTable" >
+        <table id="myTable" class="table table-hover sm-12">
         <!-- <thead>
                 <tr align="center">
                     <?php //for ($i = 0; $i < count($csvData[0]); $i++): ?>
@@ -120,7 +143,7 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
 
 
             <thead>
-    <tr align="center">
+    <tr align="center" class="fs-2">
         <?php for ($i = 0; $i < count($csvData[0]); $i++): ?>
             <?php
             $columnValues = array_column($csvData, $i); // Get all values in the column
@@ -145,7 +168,7 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
 
     <?php for ($i = 1; $i < count($csvData); $i++): ?>
         
-        <tr>
+        <tr class="text-sm-start">
             <?php foreach ($csvData[$i] as $cell): ?>
                 <?php
                 
@@ -179,11 +202,8 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
                 </div>
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>     
-            
-<script>
+        <?php echo include 'js.php'; ?>
+      <script>
             
             $(document).ready(function() {
                 var table = $('#myTable').DataTable();
@@ -256,8 +276,19 @@ If the CSV report is correctly uploaded and read, you may see the contents displ
 </li><li>
 You can explore and examine the CSV facts the use of the features furnished, along with sorting, filtering, and clicking on rows to view specified records.
 </li></ul>
+<script>
+    // Increase font size for mobile devices
+    if (window.innerWidth < 468) {
+        var tableCells = document.querySelectorAll('table td, table th');
+        for (var i = 0; i < tableCells.length; i++) {
+            tableCells[i].style.fontSize = '124px'; /* Adjust the font size as needed */
+        }
+    }
+</script>
 
-    
+</div>
+<?php  include 'footer.php' ; ?>
+<?php  include 'js.php' ; ?>
 </body>
 </html>
 <?php 
