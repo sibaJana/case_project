@@ -38,7 +38,7 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
     <meta name="twitter:title" content="Online CSV Viewer: Explore and Analyze CSV Files in Your Browser">
     <meta name="twitter:description" content="Powerful CSV viewer: Analyze, explore, and read CSV files online. Effortlessly navigate data, gain insights, and simplify your workflow">
     <meta name="twitter:image" content="https://www.example.com/image.jpg">
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093970335821256"crossorigin="anonymous"></script>
     <style>
         /* td{
             font-size: 20px;

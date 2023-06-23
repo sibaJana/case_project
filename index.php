@@ -15,6 +15,7 @@ text case,
 text case changer,
 lower case to upper case,font changer
 text convert case">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093970335821256"crossorigin="anonymous"></script>
     <title>Text Converter</title>
     <link rel="stylesheet" href="style.css">
    <?php echo include 'cs.php'; ?>
