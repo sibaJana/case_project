@@ -6,15 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Text Converter - Change the case of your text with our free text case converter. Simply enter your text and click the convert button.">
     <meta name="keywords" content="text changer
-text converter,
-online font changer,
-caps converter,
-case changer,
-text case converter,
-text case,
-text case changer,
-lower case to upper case,font changer
-text convert case">
+text converter,converter,text case changer">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093970335821256"crossorigin="anonymous"></script>
     <title>Text Converter</title>
     <link rel="stylesheet" href="style.css">
