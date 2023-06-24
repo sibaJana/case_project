@@ -27,17 +27,17 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
     <title>Online CSV Viewer: Explore and Analyze CSV Files in Your Browser</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <!-- <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"> -->
     <meta name="description" content="Powerful CSV viewer: Analyze, explore, and read CSV files online. Effortlessly navigate data, gain insights, and simplify your workflow">
     <meta name="keywords" content="csv viewer, online csv viewer, csv file reader,csv visualizer,csv file viewer online">
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://www.alpokotha.in">
+    <link rel="canonical" href="https://www.alpokotha.in/Online-CSV-Viewer.php">
     <meta property="og:title" content="Online CSV Viewer: Explore and Analyze CSV Files in Your Browser">
     <meta property="og:description" content="Powerful CSV viewer: Analyze, explore, and read CSV files online. Effortlessly navigate data, gain insights, and simplify your workflow">
-    <meta property="og:image" content="https://www.alpokotha.in/">
+    <!-- <meta property="og:image" content="https://www.alpokotha.in/"> -->
     <meta name="twitter:title" content="Online CSV Viewer: Explore and Analyze CSV Files in Your Browser">
     <meta name="twitter:description" content="Powerful CSV viewer: Analyze, explore, and read CSV files online. Effortlessly navigate data, gain insights, and simplify your workflow">
-    <meta name="twitter:image" content="https://www.example.com/image.jpg">
+    <!-- <meta name="twitter:image" content="https://www.example.com/image.jpg"> -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093970335821256"crossorigin="anonymous"></script>
     <style>
         /* td{
@@ -96,7 +96,32 @@ button, input, optgroup, select, textarea{
             margin-bottom: 12px;
         }
     }
+    input[type="file"] {
+        display: none;
+    }
 
+    .custom-file-upload {
+        margin-left: 3%;
+        display: inline-block;
+        padding: 8px 12px;
+        cursor: pointer;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    button[type="submit"] {
+        /* display: block; */
+        /* margin-top: 10px; */
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
 
 
     </style>
@@ -122,9 +147,12 @@ button, input, optgroup, select, textarea{
     <?php include 'navbar.php'; ?>
     <h1 align="center" class="mt-2">Online CSV Viewer: Explore and Analyze CSV Files in Your Browser</h1>
     <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="csvFile">
-        <button type="submit">Upload</button>
-    </form>
+    <label for="csvFile" class="custom-file-upload">
+        Select File
+    </label>
+    <input type="file" id="csvFile" name="csvFile">
+    <button type="submit">Upload</button>
+</form>
 
     <?php if (isset($csvData) && !$error): ?>
         <table id="myTable" class="table table-hover sm-12">

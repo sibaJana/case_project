@@ -10,7 +10,7 @@ text converter,converter,text case changer">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093970335821256"crossorigin="anonymous"></script>
     <title>Text Converter</title>
     <link rel="stylesheet" href="style.css">
-   <?php echo include 'cs.php'; ?>
+   <?php include 'cs.php'; ?>
   </head>
 <body>
 <div class="container">
