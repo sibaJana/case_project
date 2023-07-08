@@ -7,7 +7,7 @@
     <meta name="description" content="Discover how to convert sound into text or spoken language into text with our advanced speech-to-text conversion tool">
     <meta name="keywords" content="sound into text,translate voice to text">
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://www.alpokotha.in">
+    <link rel="canonical" href="https://www.alpokotha.in/sound-into-text">
     <meta property="og:title" content="Sound into Text: Convert Audio Recordings to Written Text">
     <meta property="og:description" content="Discover how to convert sound into text or spoken language into text with our advanced speech-to-text conversion tool">
     <meta property="og:image" content="https://www.alpokotha.in/sound-into-text">

@@ -2,15 +2,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Use this online notepad to write, edit, and save your text. It's a simple and easy-to-use tool that's perfect for anyone who needs to create or edit text.">
     <meta name="keywords" content="online notepad,online text editor, free text editor, simple text editor,easy-to-use text editor,web-based text editor,cloud-based text editor">
+    <meta property="og:title" content="Online Notepad: Write, Edit, and Save Your Text Online">
+    <meta property="og:description" content="Use this online notepad to write, edit, and save your text. It's a simple and easy-to-use tool that's perfect for anyone who needs to create or edit text.">
+    <meta property="og:url" content="https://alpokotha.in/online-notepad">
+    <meta property="og:type" content="website">
     <title>Online Notepad: Write, Edit, and Save Your Text Online</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Online Notepad",
+      "description": "Use this online notepad to write, edit, and save your text. It's a simple and easy-to-use tool that's perfect for anyone who needs to create or edit text.",
+      "url": "https://alpokotha.in/online-notepad",
+      "applicationCategory": "Utility",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
 </head>
 
 <body>

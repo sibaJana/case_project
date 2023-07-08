@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hash Generators</title>
+  <meta name="author" content="siba jana">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Hash Generators">
   <meta name="description" content="Generate strong password hashes with our online tools. Safeguard your data by using bcrypt, SHA1, and MD5 hash generators for enhanced security and protection">
-  <meta name="keywords" content="bcrypt generator,sha1 generator,password hash online,md5 hash generator">
+  <meta name="keywords" content="bcrypt online generator,generate sha1 key,password hash online,file md5 hash generator">
+  <meta property="og:type" content="website">
   <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://alpokotha.in/hash-generators">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "name": "Hash Generators",
+      "description": "Generate strong password hashes with our online tools. Safeguard your data by using bcrypt, SHA1, and MD5 hash generators for enhanced security and protection",
+      "url": "https://alpokotha.in/hashpassword.php",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alpokotha.in"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hash Generators",
+          "item": "https://alpokotha.in/hash-generators"
+        }]
+      }
+    }
+  </script>
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   

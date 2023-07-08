@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Text Converter - Change the case of your text with our free text case converter. Simply enter your text and click the convert button.">
-    <meta name="keywords" content="text changer
-text converter,converter,text case changer">
+    <meta property="og:title" content="Text Converter - Free Text Case Converter Tool">
+    <meta property="og:description" content="Convert the case of your text with our free text case converter. Easily change text to sentence case, lower case, upper case, capitalized case, title case, alternating case, or inverse case.">
+    <meta property="og:url" content="https://alpokotha.in/text-converter">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:image" content="https://alpokotha.in/images/text-converter.png"> -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093970335821256"crossorigin="anonymous"></script>
     <title>Text Converter</title>
     <link rel="stylesheet" href="style.css">
    <?php include 'cs.php'; ?>
+
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Text Converter",
+  "description": "Convert the case of your text with our free text case converter. Easily change text to sentence case, lower case, upper case, capitalized case, title case, alternating case, or inverse case.",
+  "url": "https://alpokotha.in/text-converter",
+  "inLanguage": "en"
+}
+</script>
+
   </head>
 <body>
 <div class="container">

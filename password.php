@@ -3,12 +3,29 @@
 <head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Strong Password Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Create highly secure passwords with our Strong Password Generator. Ensure the safety of your online accounts with reliable and unbreakable password combinations">
     <meta name="keywords" content="strong password generator,random password,passgen">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Strong Password Generator</title>
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Strong Password Generator",
+      "description": "Create highly secure passwords with our Strong Password Generator. Ensure the safety of your online accounts with reliable and unbreakable password combinations",
+      "url": "https://alpokotha.in/strong-password-generator",
+      "applicationCategory": "Utility",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
   <style>
     body {
       font-family: Arial, sans-serif;

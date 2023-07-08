@@ -34,6 +34,8 @@ font-size: 20px;
             <li><a class="dropdown-item" href="password.php">password Genenator</a></li>
             <li><a class="dropdown-item" href="sound-into-text.php">Voice To Text</a></li>
             <li><a class="dropdown-item" href="php-unserialize-online.php">unserialize</a></li>
+            <li><a class="dropdown-item" href="url-shortener.php">URL Shortener</a></li>
+            <li><a class="dropdown-item" href="binary-to-decimal-converter.php">binary To decimal</a></li>
           </ul>
         </li>
         
