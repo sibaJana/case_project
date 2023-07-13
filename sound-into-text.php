@@ -77,6 +77,7 @@
 
 </style>
 </head>
+
 <body>
   <div class="container">
   <?php include 'navbar.php' ?>

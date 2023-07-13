@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Binary to Decimal Converter</title>
+    <link rel="icon" href="./img/coding.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         table {
             border-collapse: collapse;

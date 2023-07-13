@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/coding.png" type="image/x-icon">
     <meta name="description" content="Convert your CSV files to JSON and HTML formats with ease using our CSV Conversion Tool. Effortlessly transform your data into JSON objects or generate HTML tables for easy visualization. Simplify your data processing and presentation tasks with our versatile CSV converter.">
     <meta name="keywords" content="CSV conversion,CSV Conversion Tool,
 CSV to JSON,

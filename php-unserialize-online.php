@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>php unserialize online</title>
+    <link rel="icon" href="./img/coding.png" type="image/x-icon">
     <meta name="description" content="Unserialize Online: Decode PHP Serialized Data Instantly! Try our free unserialize tool to quickly unserialize PHP data. Decode with ease. Fast and efficient! #1 choice for unserialize">
     <meta name="keywords" content="Unserialize Online, Unserialize, php unserialize online">
     <meta name="robots" content="index, follow">

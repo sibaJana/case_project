@@ -4,12 +4,13 @@
 <head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./img/coding.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Use this online notepad to write, edit, and save your text. It's a simple and easy-to-use tool that's perfect for anyone who needs to create or edit text.">
     <meta name="keywords" content="online notepad,online text editor, free text editor, simple text editor,easy-to-use text editor,web-based text editor,cloud-based text editor">
     <meta property="og:title" content="Online Notepad: Write, Edit, and Save Your Text Online">
     <meta property="og:description" content="Use this online notepad to write, edit, and save your text. It's a simple and easy-to-use tool that's perfect for anyone who needs to create or edit text.">
-    <meta property="og:url" content="https://alpokotha.in/online-notepad">
+    <meta property="og:url" content="https://alpokotha.in/online-notepad.php">
     <meta property="og:type" content="website">
     <title>Online Notepad: Write, Edit, and Save Your Text Online</title>
     <link rel="stylesheet" href="style.css">

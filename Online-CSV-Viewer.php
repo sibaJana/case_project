@@ -27,6 +27,7 @@ if (isset($_FILES['csvFile']) && $_FILES['csvFile']['error'] === UPLOAD_ERR_OK) 
     <title>Online CSV Viewer: Explore and Analyze CSV Files in Your Browser</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/coding.png" type="image/x-icon">
     <!-- <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"> -->
     <meta name="description" content="Powerful CSV viewer: Analyze, explore, and read CSV files online. Effortlessly navigate data, gain insights, and simplify your workflow">
     <meta name="keywords" content="csv viewer, online csv viewer, csv file reader,csv visualizer,csv file viewer online">

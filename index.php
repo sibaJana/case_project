@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./img/coding.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Text Converter - Free Text Case Converter Tool">
     <meta property="og:description" content="Convert the case of your text with our free text case converter. Easily change text to sentence case, lower case, upper case, capitalized case, title case, alternating case, or inverse case.">
