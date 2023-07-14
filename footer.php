@@ -35,11 +35,12 @@
   </div>
   <div class="footer-bottom bg-light py-2">
     <div class="container">
-      <p class="m-0">&copy; 2023 Your Website. All rights reserved.</p>
-      <div class="social-icons text-center">
+    <p class="m-0 text-center">&copy; 2023 alpokotha.in. All rights reserved.</p>
+      <div class="social-icons text-center mt-2">
+      
         <a href="https://www.instagram.com/siba.jana/" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-instagram"></i></a>
         <a href="https://www.facebook.com/siba.jana.16/" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-facebook"></i></a>
-        <a href="https://wa.me/7076805561" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-whatsapp"></i></a>
         <a href="https://twitter.com/SibaJana18" target="_blank" class="social-icon btn btn-outline-primary"><i class="fab fa-twitter"></i></a>
       </div>
     </div>

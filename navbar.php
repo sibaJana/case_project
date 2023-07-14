@@ -38,9 +38,9 @@ font-size: 20px;
             <li><a class="dropdown-item" href="binary-to-decimal-converter.php">binary To decimal</a></li>
             <li><a class="dropdown-item" href="text-to-voice-converter-hindi.php">text to voice</a></li>
             <li><a class="dropdown-item" href="telugu-voice-to-text.php">telugu2text</a></li>
+            <li><a class="dropdown-item" href="40-kb-image-converter.php">Image converter</a></li>
           </ul>
         </li>
-        
       </ul>
     </div>
   </div>
