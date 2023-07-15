@@ -11,13 +11,10 @@
     <link rel="canonical" href="https://www.alpokotha.in/php-unserialize-online.php">
     <meta property="og:title" content="php unserialize online">
     <meta property="og:description" content="Unserialize Online: Decode PHP Serialized Data Instantly! Try our free unserialize tool to quickly unserialize PHP data. Decode with ease. Fast and efficient! #1 choice for unserialize">
-    <!-- <meta property="og:image" content="https://www.example.com/image.jpg"> -->
     <meta property="og:url" content="https://www.alpokotha.in/php-unserialize-online.php">
     <meta property="og:type" content="website">
     <meta name="twitter:title" content="php unserialize online">
     <meta name="twitter:description" content="Unserialize Online: Decode PHP Serialized Data Instantly! Try our free unserialize tool to quickly unserialize PHP data. Decode with ease. Fast and efficient! #1 choice for unserialize">
-    <!-- <meta name="twitter:image" content="https://www.example.com/image.jpg"> -->
-    <!-- <meta name="twitter:card" content="summary_large_image"> -->
 
     <script type="application/ld+json">
 {

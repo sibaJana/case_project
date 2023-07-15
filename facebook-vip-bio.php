@@ -52,6 +52,10 @@
     <?php include 'navbar.php' ?>
     <form action="#" method="post">
       <h1 class="mt-3">Facebook vip Bio</h1>
+      <select name="type_data" id="type_data">
+        <option value="1">Plain Bio</option>
+        <option value="2">Design Bio</option>
+      </select>
       <div class="form-floating mt-4">
         <textarea class="form-control" name="bio" id="bio" placeholder="Leave a comment here" style="height: 300px; font-size: 20px;" id="floatingTextarea"> ❖─────☸🖤☸─────❖
             ➡ Free Spirit 🌈
@@ -93,9 +97,12 @@
     $(document).ready(function() {
       var bio = $('#bio').val();
       $('#bio_gen').click(function() {
+        var type_data=$('#type_data').val();
         $.ajax({
           url: 'generate_bio.php',
+        
           type: 'post',
+          data:{type_data:type_data},
           success: function(response) {
             $('#bio').val(response);
           }

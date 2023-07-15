@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="./img/coding.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="lower case, upper case, capitalized case, title case, alternating case,inverse case">
+    <meta name="description" content="Convert the case of your text with our free text case converter. Easily change text to sentence case, lower case, upper case, capitalized case, title case, alternating case, or inverse case.">
+    <link rel="canonical" href="https://www.alpokotha.in/">
     <meta property="og:title" content="Text Converter - Free Text Case Converter Tool">
     <meta property="og:description" content="Convert the case of your text with our free text case converter. Easily change text to sentence case, lower case, upper case, capitalized case, title case, alternating case, or inverse case.">
     <meta property="og:url" content="https://alpokotha.in/text-converter">
     <meta property="og:type" content="website">
-    <!-- <meta property="og:image" content="https://alpokotha.in/images/text-converter.png"> -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3093970335821256"crossorigin="anonymous"></script>
     <title>Text Converter</title>
     <link rel="stylesheet" href="style.css">
